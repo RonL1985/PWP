@@ -24,6 +24,10 @@
 		<p>Nichole is hoping to have a quick and easy way of finding the right dog for her and her family by trying this new online
 			pet adoption experience she is hoping to make her kids happy with a new member  of the family. Her kids have biting at her heals
 		about getting a new dog.</p>
+		<h1>User Story:</h1>
+		<p>Nichole is a single mom of three beautiful kids that are her world. Her kids have been asking and begging her to get a new dog for them.
+		So she has been looking all over town at the shelters and has no luck finding the right one for her kids. She is looking forward
+		to trying the new online pet adoption sites to see if the right dog is waiting for her to bring home.</p>
 
 	</body>
 </html>
