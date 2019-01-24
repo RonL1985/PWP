@@ -2,6 +2,28 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<link rel="stylesheet" href="index.stylesheet.css" type="text/css"/>
+		<title>PWP</title>
+	</head>
+	<body class="body">
+		<h1 style="color:yellow;">Purpose</h1>
+		<p style="color:yellow;">So that other perple can see how great it is to have a pet in your home. That loves you no matter
+			what. Having a pet in your life could be a way to show you a new and happy life.</p>
+		<h1 style="color:yellow;">Audience</h1>
+		<p style="color:yellow;">This site is designed for a Animal loving audience in mind, and is aimed toward
+			individuals that have the time to care and love for a new pet in there life. My target audience will be
+			loving and caring families, single and in need of a companion.</p>
+		<h1 style="color:yellow;">Goals</h1>
+		<p style="color:yellow;">To try and find homes for loving and caring animals that need a loving and caring home.
+			That need to be adopted.</p>
+		<a style="color:white;" href="https://www.kindnessranch.org/adopt">Adopt</a>
+
+	</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
 		<title>persona</title>
 	</head>
 	<body>
