@@ -5,18 +5,14 @@
 		<title>persona</title>
 	</head>
 	<body>
-		<h1>Name: Nichole Barr</h1>
-		<h1>Age:31</h1>
-		<h1>Profession</h1>
-		<lu>
-			<li id="item1">Student at CNM part time.</li>
-			<h1>Technology</h1>
-			<li id="item2">Iphone7 Plus with IOS system</li>
-			<h1>Behaviors and Attitudes</h1>
-			<li id="item3">Responsible mother of 3 with a positive attitude</li>
-		</lu>
 		<img src="personapic.jpeg">
-
+		<h1>Name: Nichole Barr</h1>
+		<lu>
+			<li id="item1">Age: 31</li>
+			<li id="item2">Profession: Student at CNM part time. Studying to be an Accountant</li>
+			<li id="item3">IPhoneX 256 GB Microsoft Surface Pro 12.3″ - Core i5 7300U 2.6 GHz - 8 GB RAM - 256 GB SSD
+				Dell Inspiron Desktop (Intel ) w/ Intel Core - 8GB - 16GB - Windows 10 Home</li>
+		</lu>
 
 	</body>
 </html>
