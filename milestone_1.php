@@ -5,7 +5,7 @@
 		<title>persona</title>
 	</head>
 	<body>
-		<img src="personapic.jpeg">
+		<img src="images/personapic.jpeg">
 		<h1>Name: Nichole Barr</h1>
 		<lu>
 			<li id="item1">Age: 31</li>
