@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html> lang="en">
+<html>
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="index.stylesheet.css" type="text/css"/>
 		<title>persona</title>
 	</head>
-	<body class="body">
+	<body>
 		<h1>Name: Nichole Barr</h1>
 		<p>Age: 31</p>
 		<p>Student at CNM part time</p>
