@@ -6,16 +6,17 @@
 	</head>
 	<body>
 		<h1>Name: Nichole Barr</h1>
-		<p>Age: 31</p>
-		<p>Student at CNM part time</p>
-		<p>Technology: IPhone7 Plus with IOS system</p>
-		<p>Behaviors and Attitudes: Responsible mother of 3 with a positive attitude</p>
+		<h1>Age:31</h1>
+		<h1>Profession</h1>
+		<lu>
+			<li id="item1">Student at CNM part time.</li>
+			<h1>Technology</h1>
+			<li id="item2">Iphone7 Plus with IOS system</li>
+			<h1>Behaviors and Attitudes</h1>
+			<li id="item3">Responsible mother of 3 with a positive attitude</li>
+		</lu>
 		<img src="personapic.jpeg">
-		<p>Situation: Nichole has been looking to have a new dog.She has been all over the place looking to get a new dog but has no success.
-		So a friend of her's recommended that she should look online in hopes of finding a good dog to adopt.</p>
-		<p>Frustrations and Needs: Not being able to find the right dog for the family. Nichole is looking for a fun and playful dog that is
-		good around kids and listens and is 100% potty trained.</p>
-		<p>Goals: Nichole is hoping to have a quick and easy way of finding the right dog for you and her family by trying this new online
-		pet adoption experience</p>
+
+
 	</body>
 </html>
