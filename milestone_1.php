@@ -20,6 +20,10 @@
 		<h1>Frustrations and needs:</h1>
 		<p>Not being able to find the right dog for the family. Nichole is looking for a fun and playful dog that is
 			good around kids and listens when it is told to do or not to do thing and is 100% potty trained.</p>
+		<h1>Goals:</h1>
+		<p>Nichole is hoping to have a quick and easy way of finding the right dog for her and her family by trying this new online
+			pet adoption experience she is hoping to make her kids happy with a new member  of the family. Her kids have biting at her heals
+		about getting a new dog.</p>
 
 	</body>
 </html>
