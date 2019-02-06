@@ -29,12 +29,12 @@
 	<body>
 		<img src="../../images/personapic.jpeg">
 		<h1 style="color:greenyellow;">Name: Nichole Barr</h1>
-		<lu>
+		<ul>
 			<li style="color:greenyellow;" id="item1">Age: 31</li>
 			<li style="color:greenyellow;" id="item2">Profession: Student at CNM part time. Studying to be an Accountant</li>
 			<li style="color:greenyellow;" id="item3">Technology: IPhoneX 256 GB, Microsoft Surface Pro 12.3″ - Core i5 7300U 2.6 GHz - 8 GB RAM - 256 GB SSD,
 				Dell Inspiron Desktop (Intel ) w/ Intel Core - 8GB - 16GB - Windows 10 Home</li>
-		</lu>
+		</ul>
 		<h1 style="color:greenyellow;">Attitudes and Behaviors:</h1>
 		<p style="color:greenyellow;">Strong mother of 3 children that studies all the time to accomplish her college education.
 		she is calm and does not blow up over the little things she just keeps moving forward even in hard times.
