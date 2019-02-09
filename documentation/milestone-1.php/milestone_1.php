@@ -6,7 +6,7 @@
 		<title>PWP</title>
 	</head>
 	<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="//www.youtube.com/embed/48OJbbI0DfE" allowfullscreen></iframe>
+		<iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=x3bfa3DZ8JM&index=24&list=RDZGDGdRIxvd0" allowfullscreen></iframe>
 	</div>
 	<body class="body">
 		<h1 style="color:yellow;">Purpose</h1>
