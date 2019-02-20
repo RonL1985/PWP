@@ -8,12 +8,7 @@
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover; /* Resize the background image to cover the entire container */
 }
-.body {
-	background-image: url("../../images/Pug1.jpg");
-	width: 1224px;
-	height: 1632px;
-	image-size: 300px;
-}
+
 
 
 a:visited {
