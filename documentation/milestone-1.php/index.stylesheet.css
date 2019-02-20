@@ -1,12 +1,21 @@
 /* Symantec Watermark: CB70-4860-5397-06-15-6 */
 
-
+.hero-image {
+	background-image: url("../../Backgrond.jpg"); /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	height: 500px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
 .body {
 	background-image: url("../../images/Pug1.jpg");
 	width: 1224px;
 	height: 1632px;
 	image-size: 300px;
 }
+
+
 a:visited {
 color: white;
 }
@@ -56,4 +65,5 @@ color: white;
 
 img {
 	width: 30%;}
+
 
