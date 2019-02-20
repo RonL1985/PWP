@@ -1,11 +1,16 @@
 /* Symantec Watermark: CB70-4860-5397-06-15-6 */
+
+
 .body {
 	background-image: url("../../images/Pug1.jpg");
-	image-size: 100%;
+	width: 1224px;
+	height: 1632px;
+	image-size: 300px;
 }
 a:visited {
 color: white;
 }
+
 
 
 #coToolbarFrame {
@@ -35,6 +40,8 @@ color: white;
 	zoom: inherit;
 }
 
+
+
 #coFrameDiv * {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -49,3 +56,4 @@ color: white;
 
 img {
 	width: 30%;}
+
