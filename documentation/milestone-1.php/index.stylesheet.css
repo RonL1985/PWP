@@ -58,7 +58,9 @@ color: greenyellow;
 img {
 	display: inline-block;
 	align-items: flex-start;
-	width: 30%;}
+	width: 30%;
+	padding: 20px;
+}
 
 
 style {
@@ -73,7 +75,7 @@ div.sfooter-content section:last-child {
 }
 
 .form-wrapper{
-	background-color:red;
+	background-color: lightseagreen;
 	color: yellow;
 	padding: 20px;
 }
@@ -117,7 +119,33 @@ footer {
 header {
 	background-color: black;
 	color: white;
-	text-align: left;
+	text-align: end ;
+	padding: 25px;
+
+}
+h1 {
+	display: block;
+	font-size: 2em;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+	color: yellow;
+}
+h3 {
+	display: block;
+	font-size: 1.17em;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+	color: yellow;
+}
+div {
+	display: block;
+	border-image-slice: fill;
 }
 
 
