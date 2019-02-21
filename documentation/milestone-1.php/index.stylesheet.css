@@ -71,8 +71,8 @@ div.sfooter-content section:last-child {
 }
 
 .form-wrapper{
-	background-color:darkgreen;
-	color: lime;
+	background-color:red;
+	color: yellow;
 	padding: 20px;
 }
 
@@ -87,7 +87,7 @@ input, textarea {
 }
 
 button {
-	background-color: red;
+	background-color: yellow;
 	padding: 10px 31px;
 	font-weight: bold;
 	border: none;
@@ -105,7 +105,7 @@ form div:nth-child(4){
  *Footer.
  **/
 footer {
-	background-color: red;
+	background-color: black;
 	color: white;
 	text-align: left;
 }
