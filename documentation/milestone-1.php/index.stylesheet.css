@@ -2,7 +2,9 @@
 
 body {
 	background-image: url("../../images/Backgrond.jpg"); /* The image used */
-	background-size: cover;
+	background-size: auto;
+	background-blend-mode: color-burn;
+	background-attachment: fixed;
 
 
 }
@@ -58,8 +60,10 @@ color: greenyellow;
 img {
 	display: inline-block;
 	align-items: flex-start;
-	width: 30%;
-	padding: 20px;
+	list-style-image: inherit;
+	padding: 5px;
+	list-style-image: inherit;
+	border-color: whitesmoke;
 }
 
 
