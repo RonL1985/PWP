@@ -62,8 +62,13 @@ img {
 	align-items: flex-start;
 	list-style-image: inherit;
 	padding: 5px;
-	list-style-image: inherit;
 	border-color: whitesmoke;
+	shape-image-threshold: inherit;
+	border-image-outset: inherit;
+	outline: lawngreen;
+	flex-flow: column;
+	flex: auto;
+	width: border-box;
 }
 
 
@@ -115,7 +120,7 @@ form div:nth-child(4){
 footer {
 	background-color: black;
 	color: white;
-	text-align: left;
+	text-align: justify-all;
 }
 /**
  *header.
@@ -123,8 +128,9 @@ footer {
 header {
 	background-color: black;
 	color: white;
-	text-align: end ;
+	text-align: right ;
 	padding: 25px;
+	display: block;
 
 }
 h1 {
