@@ -87,6 +87,7 @@ div.sfooter-content section:last-child {
 	background-color: black;
 	color: yellow;
 	padding: 20px;
+
 }
 
 label {
@@ -152,6 +153,7 @@ h3 {
 	margin-inline-end: 0px;
 	font-weight: bold;
 	color: yellow;
+	text-align: justify-all;
 }
 div {
 	display: block;
