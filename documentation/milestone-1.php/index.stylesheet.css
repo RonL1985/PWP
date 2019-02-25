@@ -83,6 +83,19 @@ div.sfooter-content section:last-child {
 	background-color: #333333;
 }
 
+
+
+.centercol h1{
+	background: #F2EFE9;
+	border-left: 3px solid #C6C1B8;
+	color: #006BB6;
+	display: block;
+	align-self: center;
+	font-weight: normal;
+	font-size: 18px;
+	padding: 3px 3px 3px 6px;
+}
+
 .form-wrapper{
 	background-color: red;
 	color: yellow;
@@ -161,5 +174,7 @@ div {
 	display: block;
 	border-image-slice: fill;
 }
+
+
 
 
