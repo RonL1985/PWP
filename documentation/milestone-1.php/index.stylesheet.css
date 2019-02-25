@@ -143,6 +143,7 @@ h1 {
 	margin-inline-end: 0px;
 	font-weight: bold;
 	color: yellow;
+	background-color: red;
 }
 h3 {
 	display: block;
@@ -153,7 +154,8 @@ h3 {
 	margin-inline-end: 0px;
 	font-weight: bold;
 	color: yellow;
-	text-align: justify-all;
+	column-fill: auto;
+	background-color: black;
 }
 div {
 	display: block;
