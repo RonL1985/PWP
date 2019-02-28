@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="index.stylesheet.css" type="text/css"/>
+		<link rel="stylesheet" href="../../public_html/styles.css" type="text/css"/>
 		<title>PWP</title>
 	</head>
 	<body class="body">
@@ -27,7 +27,7 @@
 		<title>persona</title>
 	</head>
 	<body>
-		<img src="../../img/personapic.jpeg">
+		<img src="../../public_html/images/personapic.jpeg">
 		<h1 style="color:greenyellow;">Name: Nichole Barr</h1>
 		<ul>
 			<li style="color:greenyellow;" id="item1">Age: 31</li>
