@@ -27,7 +27,7 @@
 		<title>persona</title>
 	</head>
 	<body>
-		<img src="../../images/personapic.jpeg">
+		<img src="../../img/personapic.jpeg">
 		<h1 style="color:greenyellow;">Name: Nichole Barr</h1>
 		<ul>
 			<li style="color:greenyellow;" id="item1">Age: 31</li>
