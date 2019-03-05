@@ -1,5 +1,53 @@
-/*
-div[class*="col"] {
-	background-color: lightgoldenrodyellow;
-	border: 1px dashed #333;
-}*/
+
+
+/**
+ * Contact Section
+ **/
+
+div.sfooter-content section:last-child {
+	background-color: #333333;
+}
+
+.form-wrapper{
+	background-color:darkgreen;
+	color: lime;
+	padding: 20px;
+}
+
+label {
+	display: block;
+	margin: 15px 0 5px 0;
+}
+
+input, textarea {
+	width: 30vw;
+	padding: 8px;
+}
+
+button {
+	background-color: lime;
+	padding: 10px 31px;
+	font-weight: bold;
+	border: none;
+}
+
+form div:nth-child(4){
+	margin-bottom: 15px;
+}
+
+.form-wrapper h2{
+	margin-top: 0;
+}
+
+/**
+ *Footer.
+ **/
+footer {
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+
+body {
+	background-color: maroon;
+}
