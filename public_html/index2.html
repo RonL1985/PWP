@@ -1,72 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="styles.css" type="text/css"/>
-		<title>PWP</title>
+	<html>
+		<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+		<!-- ADD CUSTOM CSS BELOW -->
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<link rel="stylesheet" id="coToolbarStyle" href="chrome-extension://cjabmdjcfcfdmffimndhafhblfmpjdpe/toolbar/styles/placeholder.css" type="text/css"><script type="text/javascript" id="cosymantecbfw_removeToolbar">(function () {				var toolbarElement = {},					parent = {},					interval = 0,					retryCount = 0,					isRemoved = false;				if (window.location.protocol === 'file:') {					interval = window.setInterval(function () {						toolbarElement = document.getElementById('coFrameDiv');						if (toolbarElement) {							parent = toolbarElement.parentNode;							if (parent) {								parent.removeChild(toolbarElement);								isRemoved = true;								if (document.body && document.body.style) {									document.body.style.setProperty('margin-top', '0px', 'important');								}							}						}						retryCount += 1;						if (retryCount > 10 || isRemoved) {							window.clearInterval(interval);						}					}, 10);				}			})();</script></head><body>
+
+
 
 		<header>
-			<div class="container">
-				<a href="https://bootcamp-coders.cnm.edu/~rluna41/PWP/index2.html">Home</a>
-				<a href="">About Me</a>
-				<a href="https://animalhumanenm.org">Portfolio</a>
-				<a href="http://ronaldluna1@gmail.com">Contact</a>
+			<div class="container px-0 px-sm-3 mt-sm-3">
+				<nav class="navbar navbar-expand-sm navbar-light bg-light border rounded">
+					<a class="navbar-brand" href="#">Bootstrap Challenge</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">About Me</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Portfolio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
 			</div>
 		</header>
 
-	</head>
-	
-	<body>
-		<div class="jumbotron">
-			<h1 class="display-3">ABQ ADOPT</h1>
-			<img src="images/adoptdog1.jpg" height="350" width="500"/>
-			<p class="lead"></p>
-			<hr class="my-2">
-			<p></p>
-			<p class="lead">
-
-				</div>
-		<div class="jumbotron jumbotron-fluid">
+		<section class="py-5">
 			<div class="container">
-				<h1 class="display-3"><a href="">About Me</a></h1>
-				<h3 class="lead">My name is Ronald Luna. I just want to try and help out with finding abandoned animals new
-				homes with owners that will love and take good and special care of them. I want to make it easier for people that
-				are looking to adopt a new animal to take care of. By showing you other sites and places you can go to try and
-				find your next family member.</h3>
-			</div>
-		</div>
-
-		<h1><a href="https://animalhumanenm.org">Portfolio</a></h1>
-		<div class="container card-deck col-12 mt-5 pb-5 d-flex flex-wrap justify-content-center align-items-center">
-
-			<div class="col-3 card border-0">
-				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="images/dog1.jpg" alt="stick figure">
-				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
-					<p class="p-2 text-center text-muted font-weight-bold">Checkers Chihuahua cross Terrier, Rat Male - 8Yrs (approx)</p>
+				<div class="row">
+					<div class="col">
+						<div class="jumbotron">
+							<h1 class="display-4">ABQ ADOPT</h1>
+							<p class="lead">This is a simple site to help you find the perfect pet for you.</p>
+							<hr class="my-4">
+							<p>Click the link below to go straight to Albuquerque's Adopt main site.</p>
+							<p class="lead">
+								<a class="https://animalhumanenm.org/" href="#" role="button">Learn more</a>
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
+		</section>
 
-			<div class="col-3 card border-0">
-				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="images/cat.jpg" alt="stick figure">
-				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
-					<p class="p-2 text-center text-muted font-weight-bold">Adonis Domestic Short Hair cross Male - 6Yrs 2Mths (approx) Available 2/3/2019</p>
+		<section class="bg-secondary py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<img class="img-fluid d-block mx-auto mb-3 mb-lg-0" src="images/dog6.jpg" alt="dog6">
+					</div>
+					<div class="col-lg-9 text-justify">
+						<h1>About Me</h1>
+						<p class="lead text-white">My name is Ronald Luna. I just want to try and help out with finding abandoned animals new homes with owners that will love and take good and special care of them. I want to make it easier for people that are looking to adopt a new animal to take care of. By showing you other sites and places you can go to try and find your next family member.</p>
+					</div>
 				</div>
 			</div>
+		</section>
 
-			<div class="col-3 card border-0">
-				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="images/dog2.jpg" alt="stick figure">
-				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
-					<p class="p-2 text-center text-muted font-weight-bold">Diana American Pit Bull cross Male - 10Mths (approx) Available 2/22/2019</p>
+		<h1>Portfolio</h1>
+		<section class="py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-8 offset-2 col-sm-6 offset-sm-0 col-lg-3 mb-3">
+						<img class="img-fluid img-thumbnail rounded-circle d-block mx-auto mb-3" src="images/dog1.jpg" alt="dog1">
+						<div class="card">
+							<div class="card-body">
+								<p class="card-text text-justify">Checkers Chihuahua cross Terrier, Rat Male - 8Yrs (approx)</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-8 offset-2 col-sm-6 offset-sm-0 col-lg-3 mb-3">
+						<img class="img-fluid img-thumbnail rounded-circle d-block mx-auto mb-3" src="images/cat.jpg" alt="cat">
+						<div class="card">
+							<div class="card-body">
+								<p class="card-text text-justify">Adonis Domestic Short Hair cross Male - 6Yrs 2Mths (approx) Available 2/3/2019</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-8 offset-2 col-sm-6 offset-sm-0 col-lg-3 mb-3">
+						<img class="img-fluid img-thumbnail rounded-circle d-block mx-auto mb-3" src="images/dog2.jpg" alt="dog2">
+						<div class="card">
+							<div class="card-body">
+								<p class="card-text text-justify">Diana American Pit Bull cross Male - 10Mths (approx) Available 2/22/2019</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-8 offset-2 col-sm-6 offset-sm-0 col-lg-3 mb-3">
+						<img class="img-fluid img-thumbnail rounded-circle d-block mx-auto mb-3" src="images/cat2.jpg" alt="cat2">
+						<div class="card">
+							<div class="card-body">
+								<p class="card-text text-justify">And the good thing about dogs... is they got different dogs for different people. Like pit bulls. The dog of dogs.</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
+		</section>
 
-			<div class="col-3 card border-0">
-				<img class="rounded-circle border ml-auto mr-auto mt-5 mb-4" src="images/cat2.jpg" alt="stick figure">
-				<div class="infocard bg-light m-auto p-2 border rounded d-flex align-items-center">
-					<p class="p-2 text-center text-muted font-weight-bold">Huey Domestic Short Hair cross Female - 8Yrs 2Wks (approx) Available 2/7/2019</p>
+		<footer class="bg-dark text-white text-center py-4">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h1>ADOPT TODAY</h1>
+					</div>
 				</div>
 			</div>
-		</div>
+		</footer>
+
+
+	</body><div id="coFrameDiv" style="height:0px;display:none;"><iframe id="coToolbarFrame" src="chrome-extension://cjabmdjcfcfdmffimndhafhblfmpjdpe/toolbar/placeholder.html" style="height: 0px; width: 100%; display: none;"></iframe></div></html>
 		<div class="et_pb_module et_pb_text et_pb_text_1 et_pb_bg_layout_light  et_pb_text_align_left">
 			<div class="et_pb_text_inner">
 				<p style="text-align: center;"><a href="https://facebook.com/animalhumanenm" target="_blank" rel="noopener">
