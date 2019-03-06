@@ -8,6 +8,16 @@ div.sfooter-content section:last-child {
 	background-color: #333333;
 }
 
+
+/**
+ * Contact Section
+ **/
+
+body {}
+div.sfooter-content section:last-child {
+	background-color: #333333;
+}
+
 .form-wrapper{
 	background-color:darkgreen;
 	color: lime;
@@ -47,7 +57,4 @@ footer {
 	color: white;
 	text-align: left;
 }
-
-body {
-	background-color: maroon;
-}
+{}
