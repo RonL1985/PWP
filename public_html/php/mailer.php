@@ -8,12 +8,12 @@
  * @author Ronald Luna <ronaldluna1@gmail.com>
  **/
 // require all composer dependencies
-require_once(dirname(__DIR__, 1) . "/vendor/autoload.php");
+require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
 // require mail-config.php
 require_once("mail-config.php");
 
-use \sendGrid\Mail;
-$sendGrid = new \sendGrid($sendGridSecret);
+use \SendGrid\Mail;
+$sendGrid = new \sendGrid($smtpSecret);
 // verify user's reCAPTCHA input
 $recaptcha = new \ReCaptcha\ReCaptcha($secret);
 $resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
@@ -32,7 +32,7 @@ try {
 	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$subject = filter_input(INPUT_POST, "subject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	// create SendGrid object
-	$emailObject = new Mail();
+	$emailObject = new \SendGrid\Mail\Mail();
 	/**
 	 * Attach the sender to the message.
 	 * This takes the form of an associative array where $email is the key for the real name.
@@ -53,7 +53,7 @@ try {
 	/**
 	 * using the sendgrid object from above call the send method and use the emailObject as an argument.
 	 */
-	$response = $sendgrid->send($emailObject);
+	$response = $sendGrid->send($emailObject);
 	// report a successful send!
 	echo "<div class=\"alert alert-success\" role=\"alert\">email successfully sent.</div>";
 } catch(\Exception $exception) {

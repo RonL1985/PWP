@@ -21,7 +21,7 @@ $(document).ready(function()  {
 			// rules here difine what ius good or bad input
 			//each rule starts with the form input element's NAME attribute
 			rules: {
-				Name: {
+				name: {
 					required: true,
 				},
 				email: {
@@ -30,7 +30,7 @@ $(document).ready(function()  {
 				},
 				message: {
 					required: true,
-					maxLength: 2000,
+					maxlength: 2000,
 				},
 				subject: {
 					required: false,
@@ -47,10 +47,10 @@ $(document).ready(function()  {
 				},
 				message: {
 					required: "Please enter a message",
-					maxLength: "2000 characters max.",
+					maxlength: "2000 characters max.",
 				},
 				subject: {
-					maxLength: "Y u no write so much",
+					maxlength: "Y u no write so much",
 				}
 			},
 			submitHandler: function(form) {
