@@ -45,7 +45,7 @@ $(document).ready(function()  {
 					email: "please enter a valid email address",
 					required: "please enter a valid email address",
 				},
-				Message: {
+				message: {
 					required: "Please enter a message",
 					maxLength: "2000 characters max.",
 				},
