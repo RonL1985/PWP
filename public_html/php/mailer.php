@@ -5,15 +5,15 @@
  * This file handles secure mail transport using the Swiftmailer
  * library with Google reCAPTCHA integration.
  *
- * @author Rochelle Lewis <rlewis37@cnm.edu>
+ * @author Ronald Luna <ronaldluna1@gmail.com>
  **/
 // require all composer dependencies
 require_once(dirname(__DIR__, 1) . "/vendor/autoload.php");
 // require mail-config.php
 require_once("mail-config.php");
 
-use \SendGrid\Mail;
-$sendgrid = new \SendGrid($sendGridSecret);
+use \sendGrid\Mail;
+$sendGrid = new \sendGrid($sendGridSecret);
 // verify user's reCAPTCHA input
 $recaptcha = new \ReCaptcha\ReCaptcha($secret);
 $resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
@@ -55,7 +55,7 @@ try {
 	 */
 	$response = $sendgrid->send($emailObject);
 	// report a successful send!
-	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
+	echo "<div class=\"alert alert-success\" role=\"alert\">email successfully sent.</div>";
 } catch(\Exception $exception) {
-	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
+	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>0h snap!</strong> unable to send email: " . $exception->getMessage() . "</div>";
 }

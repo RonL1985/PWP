@@ -9,7 +9,7 @@ $(document).ready(function()  {
 	 * Update this file as needed for your form.
 	 * All ids and names values must match up to you form here.
 	 *
-	 * @author Rachelle Lewis <rlewis37@cnm.edu>
+	 * @author Ronald Luna <ronaldluna1@gmail.com>
 	 **/
 
 	$("#form").validate(
@@ -24,7 +24,7 @@ $(document).ready(function()  {
 				Name: {
 					required: true,
 				},
-				Email: {
+				email: {
 					email: true,
 					required: true
 				},
@@ -32,16 +32,16 @@ $(document).ready(function()  {
 					required: true,
 					maxLength: 2000,
 				},
-				Subject: {
+				subject: {
 					required: false,
 				}
 			},
 			// error messages to display to the end user when rules above don't pass
 			message: {
-				Name: {
+				name: {
 					required: "please enter your name."
 				},
-				Email: {
+				email: {
 					email: "please enter a valid email address",
 					required: "please enter a valid email address",
 				},
@@ -49,14 +49,14 @@ $(document).ready(function()  {
 					required: "Please enter a message",
 					maxLength: "2000 characters max.",
 				},
-				Subject: {
+				subject: {
 					maxLength: "Y u no write so much",
 				}
 			},
 			submitHandler: function(form) {
-				$("#demo-form").ajaxSubmit({
+				$("#form").ajaxSubmit({
 					type: "POST",
-					url:$("#demo-form").attr("action"),
+					url:$("form").attr("action"),
 					success: function(ajaxOutput){
 						$("#output-area").css("display","");
 
