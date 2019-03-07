@@ -12,7 +12,7 @@ $(document).ready(function()  {
 	 * @author Rachelle Lewis <rlewis37@cnm.edu>
 	 **/
 
-	$("#demo-form").validate(
+	$("#form").validate(
 		{
 			debug: true,
 			errorClass: "alert alert-danget",
@@ -21,37 +21,35 @@ $(document).ready(function()  {
 			// rules here difine what ius good or bad input
 			//each rule starts with the form input element's NAME attribute
 			rules: {
-				demoName: {
+				Name: {
 					required: true,
 				},
-				demoEmail: {
+				Email: {
 					email: true,
+					required: true
 				},
 				message: {
 					required: true,
 					maxLength: 2000,
-					minLength: 10
 				},
-				demoSubject: {
+				Subject: {
 					required: false,
-					maxLength: 64
 				}
 			},
 			// error messages to display to the end user when rules above don't pass
 			message: {
-				demoName: {
-					required: "Y u no add name"
+				Name: {
+					required: "please enter your name."
 				},
-				demoEmail: {
-					email: "y u no use real email",
-					required: "Y u no add email",
+				Email: {
+					email: "please enter a valid email address",
+					required: "please enter a valid email address",
 				},
-				demoMessage: {
-					required: "Y u no add message",
-					maxLength: "Y u no write so much",
-					minLength: "Y you no write so little",
+				Message: {
+					required: "Please enter a message",
+					maxLength: "2000 characters max.",
 				},
-				demoSubject: {
+				Subject: {
 					maxLength: "Y u no write so much",
 				}
 			},
